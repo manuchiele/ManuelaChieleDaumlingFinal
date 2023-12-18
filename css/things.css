@@ -1,0 +1,132 @@
+/* 
+body : font-family: 'Albert Sans', sans-serif;
+headers : font-family: 'Gaegu', sans-serif;
+colors (darkest to lightest): #ff0055, #ff3377, #ff6699, #ff99bb, #ffccdd; 
+*/
+
+html {
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff99bb;
+}
+
+nav {
+    background-color: #ff6699;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Gaegu', sans-serif;
+    font-size: 30px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: #faa8bd;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main h1 {
+    color: #ff3377;
+    text-align: center;
+}
+
+main p {
+    font-size: 19px;
+    letter-spacing: .2px;
+}
+
+main p {
+    text-align: center;
+    letter-spacing: .5px;
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: 'Gaegu', sans-serif;
+    font-size: 50px;
+    color:#ff3377
+}
+
+footer {
+    background-color: #ff6699;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 0;
+    color: #ffffff
+} 
+
+footer a:link,
+footer a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover,
+footer a:active {
+    color: #ff3377;
+    text-decoration: underline;
+}
+
+
+footer ul {
+    list-style-type: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+.websites a {
+    color: #ffffff;
+    text-align: center;
+}
+
+.websites a:link,
+.websites a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.websites a:hover,
+.websites a:active {
+    color: #ff3377;
+    text-decoration: underline;
+}
