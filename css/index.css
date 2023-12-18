@@ -1,19 +1,22 @@
 /* 
 body : font-family: 'Albert Sans', sans-serif;
-headers : font-family: 'Belanosima', sans-serif;
+headers : font-family: 'Gaegu', sans-serif;
+colors (darkest to lightest): #ff0055, #ff3377, #ff6699, #ff99bb, #ffccdd; 
 */
 
 html {
     font-family: 'Albert Sans', sans-serif;
     font-size: 20px;
-    color: #0f0f0f;
-    background-color: #fff8fa;
+    color: #ffffff;
+    background-color: #ff99bb;
 }
 
 nav {
-    background-color: #fb7b9b;
+    background-color: #ff6699;
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Gaegu', sans-serif;
+    font-size: 30px;
 }
 
 nav li {
@@ -37,7 +40,47 @@ nav a:visited {
 nav a:hover,
 nav a:active {
     background-color: #faa8bd;
-    color: #fc4c78;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.reasons ul li p {
+    color: #ffffff;
+    text-align: left;
+}
+
+.reasons ul li p strong {
+    font-weight: 800;
+    font-family: 'Gaegu', sans-serif;
+    font-size: 30px;
+}
+
+.websites h1 {
+    text-align: left;
+    font-size: 40px;
+}
+
+.websites h1 p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    text-shadow: none;
+}
+
+.websites a {
+    color: #ffffff;
+    text-align: left;
+}
+
+.websites a:link,
+.websites a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.websites a:hover,
+.websites a:active {
+    color: #ff3377;
     text-decoration: underline;
 }
 
@@ -47,8 +90,13 @@ main {
 }
 
 main h1 {
-    color: #fc4c78;
+    color: #ffffff;
     text-align: center;
+}
+
+main p {
+    font-size: 19px;
+    letter-spacing: .2px;
 }
 
 main img {
@@ -65,16 +113,17 @@ main img {
 main p {
     text-align: center;
     letter-spacing: .5px;
-    color: #fc4c78;
+    color: #ffffff;
 }
 
 h1, h2, h3 {
-    font-family: 'Belanosima', sans-serif;
-    text-shadow: 1px 2px 1px #c4b4b8
+    font-family: 'Gaegu', sans-serif;
+    text-shadow: 1px 2px 1px #c4b4b8;
+    font-size: 50px;
 }
 
 .assignments h2 {
-    color: #fc4c78;
+    color: #ffffff;
 }
 
 .assignments a:link {
@@ -88,17 +137,17 @@ h1, h2, h3 {
 }
 .assignments a:hover,
 .assignments a:active {
-    color: #faa8bd;
+    color: #ffffff;
     text-decoration: underline;
 }
 
 .assignments ul {
-    color: #fc4c78;
+    color: #ffffff;
 }
 
 footer {
-    background-color: #fccad6;
-    color: #fc4c78;
+    background-color: #ff6699;
+    color: #ffffff;
     font-weight: bold;
     padding: 10px 0;
     margin-top: 10px;
@@ -115,18 +164,18 @@ footer a {
     text-transform: uppercase;
     text-decoration: none;
     padding: 5px 0;
-    color: #fc4c78
+    color: #ffffff
 } 
 
 footer a:link,
 footer a:visited {
     text-decoration: none;
-    color: #fc4c78;
+    color: #ffffff;
 }
 
 footer a:hover,
 footer a:active {
-    color: #fb7b9b;
+    color: #ff3377;
     text-decoration: underline;
 }
 
