@@ -71,14 +71,14 @@ h1, h2, h3 {
     color:#ff3377
 }
 
-.images .belly {
+.images .red {
     padding: 5px;
     margin-top: 40px;
     margin-left: 15px;
     margin-bottom: 40px;
 }
 
-.images .window {
+.images .trees {
     padding: 5px;
     margin-top: 40px;
     margin-left: 40px;
@@ -86,26 +86,26 @@ h1, h2, h3 {
     margin-bottom: 40px;
 }
 
-.images .sleeping {
+.images .beach {
     padding: 5px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.images .close {
+.images .madison {
     padding: 5px;
     margin-left: 15px;
     margin-bottom: 40px;
 }
 
-.images .flash {
+.images .night {
     padding: 5px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
 }
 
-.images .room {
+.images .moon {
     padding: 5px;
     margin-bottom: 40px;
 }
