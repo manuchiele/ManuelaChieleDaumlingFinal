@@ -56,34 +56,10 @@ nav a:active {
     color:#ffffff
 }
 
-.websites h1 {
-    text-align: left;
-    font-size: 50px;
-    color:#ff0055;
-}
-
-.websites h1 p {
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Albert Sans', sans-serif;
-    text-shadow: none;
-}
-
-.websites a {
-    color: #ffffff;
-    text-align: left;
-}
-
-.websites a:link,
-.websites a:visited {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.websites a:hover,
-.websites a:active {
-    color: #ff3377;
-    text-decoration: underline;
+main .images .family {
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 240px;
 }
 
 main {
@@ -99,10 +75,6 @@ main h1 {
 main p {
     font-size: 19px;
     letter-spacing: .2px;
-}
-
-main img {
-    border: 5px dashed #faa8bd;
 }
 
 main p {
